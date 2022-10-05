@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include compact_theme_for_frappe_13 *.css
+recursive-include compact_theme_for_frappe_13 *.csv
+recursive-include compact_theme_for_frappe_13 *.html
+recursive-include compact_theme_for_frappe_13 *.ico
+recursive-include compact_theme_for_frappe_13 *.js
+recursive-include compact_theme_for_frappe_13 *.json
+recursive-include compact_theme_for_frappe_13 *.md
+recursive-include compact_theme_for_frappe_13 *.png
+recursive-include compact_theme_for_frappe_13 *.py
+recursive-include compact_theme_for_frappe_13 *.svg
+recursive-include compact_theme_for_frappe_13 *.txt
+recursive-exclude compact_theme_for_frappe_13 *.pyc
