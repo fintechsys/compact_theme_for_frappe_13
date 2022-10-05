@@ -13,7 +13,7 @@ app_license = "Apache License Version 2.0"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/compact_theme_for_frappe_13/css/compact_theme_for_frappe_13.css"
+app_include_css = "/assets/compact_theme_for_frappe_13/css/compact_theme.css"
 # app_include_js = "/assets/compact_theme_for_frappe_13/js/compact_theme_for_frappe_13.js"
 
 # include js, css files in header of web template
@@ -178,4 +178,3 @@ user_data_fields = [
 # auth_hooks = [
 #	"compact_theme_for_frappe_13.auth.validate"
 # ]
-
