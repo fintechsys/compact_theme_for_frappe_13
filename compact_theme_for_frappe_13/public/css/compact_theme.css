@@ -32,7 +32,7 @@
 .form-links .document-link .document-link-badge, .form-links .document-link .report-link-badge,
 .btn, .indicator-pill, .indicator-pill-right, .page-actions .btn, button.data-pill,
 .form-links .document-link .document-link-badge .count, .form-links .document-link .report-link-badge .count,
-.form-message, .indicator-pill::before, .indicator-pill-right::after{
+.form-message, .indicator-pill::before, .indicator-pill-right::after, .datatable .dt-row-filter .dt-filter.dt-input{
 	border-radius: 0;
 }
 
@@ -67,7 +67,8 @@
   margin-right: var(--margin-xs);
 }
 
-.timeline-dot, .timeline-dot::before{
+.timeline-dot, .timeline-dot::before,
+.new-timeline .timeline-dot{
 	border-radius: 0;
 }
 
